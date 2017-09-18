@@ -3,14 +3,14 @@ h1{
 }
 
 .background{
-  background-color: rgb(252, 2, 77);
+  background-color: yellow;
+  padding: 20px;
 }
 
 .body{
   margin: auto;
   width: 80%;
   border-width:medium;
-  border-radius: 100px;
   border-style: solid;
-  border-color: green;
+  border-color: red;
 }
