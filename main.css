@@ -4,12 +4,12 @@ h1{
 }
 
 .background{
-  background-color: white;
+  background-color: green;
 }
 
 .body{
   margin: auto;
   width: 80%;
-  border-width: 10px;
-  border-color: purple;
+  border-width: 100px;
+  border-color: black;
 }
