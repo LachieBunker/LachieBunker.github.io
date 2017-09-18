@@ -1,10 +1,10 @@
 h1{
   background: blue;
-  background-color: red;
+  background-color: #4286f4;
 }
 
 .background{
-  background-color: green;
+  background-color: rgb(252, 2, 77);
 }
 
 .body{
