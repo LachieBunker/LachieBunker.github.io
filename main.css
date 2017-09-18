@@ -1,5 +1,4 @@
 h1{
-  background: blue;
   background-color: #4286f4;
 }
 
@@ -10,6 +9,8 @@ h1{
 .body{
   margin: auto;
   width: 80%;
-  border-width: 100px;
-  border-color: black;
+  border-width:medium;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: green;
 }
