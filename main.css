@@ -33,6 +33,7 @@ h1{
 
 .col-2{
   display: inline-block;
-  width: 45%;
-  margin: 50px;
+  width: 30%;
+  margin: 20px;
+  background-color: green;
 }
