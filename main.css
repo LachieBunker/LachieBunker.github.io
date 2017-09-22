@@ -28,5 +28,11 @@ h1{
 
 .purple-text{
   color: #d800ff;
-  
+
+}
+
+.col-2{
+  display: inline-block;
+  width: 45%;
+  margin: 50px;
 }
