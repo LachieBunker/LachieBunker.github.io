@@ -5,9 +5,10 @@ h1{
 .h-button{
   background-color: white;
   border:3px;
+  border-style: solid;
   border-color: #d800ff;
   color: #d800ff;
-  padding: 10px 20px;
+  padding: 5px 20px;
   text-align: center;
   display: inline-block;
 }
