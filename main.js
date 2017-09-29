@@ -31,7 +31,7 @@ function openWebsite()
 
 function changeHTML()
 {
-  colorButton.style.background-color = "blue";
+  colorButton.style.color = "blue";
 }
 
 testButton.addEventListener('click', function() {
