@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('main', function() {
 
   var testButton = document.getElementById('temp');
 
