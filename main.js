@@ -8,7 +8,7 @@ document.addEventListener('main', function() {
 
 
 var testButton = document.getElementById('temp');
-var colorButton = document.getElementById('Color');
+var colorButton = document.getElementById("color");
 
 function openWebsite()
 {
