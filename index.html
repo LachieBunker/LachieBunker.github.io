@@ -57,11 +57,26 @@
           <li>Some HTML/CSS</li>
         </ul>
 
-        <button onclick="openWebsite()" class="h-button"> Website </button>
+        <div style="display:inline-block">
+          <button onclick="openPanel1()" class="h-button"> Tab1 </button>
 
-        <button id="temp" class="h-button"> websiteJava </button>
+          <button onclick="openPanel2()" class="h-button"> Tab2 </button>
+        </div>
 
-        <button onclick="changeHTML()" id="color" class="h-button"> Color </button>
+        <div style="display:inline-block">
+          <button onclick="changeHTML()" class="h-button"> Tab3 </button>
+
+          <button onclick="changeHTML()" class="h-button"> Tab4 </button>
+        </div>
+
+        <p id="panel1">
+          Panel 1
+        </p>
+
+        <p id="panel2">
+          Panel 2
+        </p>
+
       </div>
 
       <div class="col-2" style="width: 25%">
