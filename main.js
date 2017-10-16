@@ -25,7 +25,7 @@ function openPanel1()
 {
   hidePanels();
   var panel1 = document.getElementById('panel1');
-  panel1.classList.add('show');
+  panel1.style.display = "block";
 }
 
 function openPanel2()
@@ -33,6 +33,14 @@ function openPanel2()
   hidePanels();
   var panel2 = document.getElementById('panel2');
   panel2.style.display = "block";
+}
+
+function openPanel(var panel)
+{
+  hidePanels();
+  var panelName = 'panel' + panel;
+  var panel = document.getElementById(panelName);
+  panel.style.display = "block";
 }
 
 function hidePanels()
