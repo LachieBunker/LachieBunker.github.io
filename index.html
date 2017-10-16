@@ -57,16 +57,16 @@
           <li>Some HTML/CSS</li>
         </ul>
 
-        <div style="display:inline-block">
-          <button onclick="openPanel1()" class="h-button"> Pan1 </button>
+        <div>
+          <button onclick="showPanel(1)" class="h-button" style="display:inline-block"> Pan1 </button>
 
-          <button onclick="openPanel(2)" class="h-button"> Pan2 </button>
+          <button onclick="showPanel(2)" class="h-button" style="display:inline-block"> Pan2 </button>
         </div>
 
-        <div style="display:inline-block">
-          <button onclick="changeHTML()" class="h-button"> Tab3 </button>
+        <div>
+          <button onclick="showPanel(3)" class="h-button" style="display:inline-block"> Tab3 </button>
 
-          <button onclick="changeHTML()" class="h-button"> Tab4 </button>
+          <button onclick="showPanel(4)" class="h-button" style="display:inline-block"> Tab4 </button>
         </div>
 
         <p id="panel1" class="skillPanels">
@@ -76,6 +76,14 @@
         <p id="panel2" class="skillPanels">
           Panel 2
         </p>
+        <p id="panel3" class="skillPanels">
+          Panel 3
+        </p>
+
+        <p id="panel4" class="skillPanels">
+          Panel 4
+        </p>
+
 
       </div>
 

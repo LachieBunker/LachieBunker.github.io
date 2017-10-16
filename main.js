@@ -35,7 +35,7 @@ function openPanel2()
   panel2.style.display = "block";
 }
 
-function openPanel(panelNum)
+function showPanel(panelNum)
 {
   hidePanels();
   var panelName = 'panel' + panelNum;
