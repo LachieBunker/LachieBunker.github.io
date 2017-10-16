@@ -6,7 +6,7 @@ document.addEventListener('main', function() {
 }, false);
 
 var testButton = document.getElementById('temp');
-var colorButton = document.getElementById('color');
+public var colorButton = document.getElementById('color');
 
 
 
