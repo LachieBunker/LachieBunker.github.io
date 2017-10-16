@@ -23,36 +23,27 @@ function changeHTML()
 
 function openPanel1()
 {
+  hidePanels();
   var panel1 = document.getElementById('panel1');
-  var panel2 = document.getElementById('panel2');
   panel1.classList.add('show');
-  panel2.classList.add('hide');
 }
 
 function openPanel2()
 {
-  var panel1 = document.getElementById('panel1');
+  hidePanels();
   var panel2 = document.getElementById('panel2');
-  panel1.style.display = "none";
   panel2.style.display = "block";
 }
-/*
-function clearPanels()
+
+function hidePanels()
 {
-  var panels[] = document.getElementsByClassName('skillPanels');
+  var panels = document.getElementsByClassName('skillPanels');
   for (var i = 0; i < panels.length; i++)
   {
-    if(panels[i].classList.contains('show'))
-    {
-      panels[i].classList.remove('show');
-    }
-    if(panels[i].classList.contains('hide') == false)
-    {
-      panels[i].classList.add('hide');
-    }
+    panels[i].style.display = "none";
   }
 }
-*/
+
 testButton.addEventListener('click', function() {
   chrome.tabs.create({url:"http://www.qartwheelproductions.com/antidote/"})
 })
