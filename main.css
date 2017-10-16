@@ -47,3 +47,11 @@ h1{
   width: 30%;
   margin: 20px;
 }
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
