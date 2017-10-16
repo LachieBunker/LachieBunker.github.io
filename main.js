@@ -36,7 +36,7 @@ function openPanel2()
   panel1.style.display = "none";
   panel2.style.display = "block";
 }
-
+/*
 function clearPanels()
 {
   var panels[] = document.getElementsByClassName('skillPanels');
@@ -52,7 +52,7 @@ function clearPanels()
     }
   }
 }
-
+*/
 testButton.addEventListener('click', function() {
   chrome.tabs.create({url:"http://www.qartwheelproductions.com/antidote/"})
 })
