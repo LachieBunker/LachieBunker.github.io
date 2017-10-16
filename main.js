@@ -35,10 +35,10 @@ function openPanel2()
   panel2.style.display = "block";
 }
 
-function openPanel(var panel)
+function openPanel(panelNum)
 {
   hidePanels();
-  var panelName = 'panel' + panel;
+  var panelName = 'panel' + panelNum;
   var panel = document.getElementById(panelName);
   panel.style.display = "block";
 }
