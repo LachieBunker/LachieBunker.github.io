@@ -5,10 +5,10 @@ document.addEventListener('main', function() {
 
 }, false);
 
-
-
 var testButton = document.getElementById('temp');
 var colorButton = document.getElementById("color");
+
+
 
 function openWebsite()
 {
@@ -17,6 +17,7 @@ function openWebsite()
 
 function changeHTML()
 {
+  var colorButton = document.getElementById('color');
   colorButton.style.color = "blue";
 }
 
