@@ -18,7 +18,7 @@ function openWebsite()
 function changeHTML()
 {
   var colorButton = document.getElementById('color');
-  colorButton.style.
+  colorButton.style.color = blue;
 }
 
 function openPanel1()
