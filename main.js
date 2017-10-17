@@ -21,18 +21,17 @@ function changeHTML()
   colorButton.style.color = blue;
 }
 
-function openPanel1()
+function selectorClicked(selectorNum)
 {
-  hidePanels();
-  var panel1 = document.getElementById('panel1');
-  panel1.style.display = "block";
+
 }
 
-function openPanel2()
+function unHighlightSelectors()
 {
-  hidePanels();
-  var panel2 = document.getElementById('panel2');
-  panel2.style.display = "block";
+  var selectors document.getElementsByClassName('skillSelectors');
+  for (var i = 0; i < selectors.length; i++) {
+    selectors[i].style.height = selectors[i].style.width;
+  }
 }
 
 function showPanel(panelNum)
