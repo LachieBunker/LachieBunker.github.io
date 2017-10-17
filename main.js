@@ -35,7 +35,7 @@ function unHighlightSelectors()
   var selectors = document.getElementsByClassName('skillSelectors');
   for (var i = 0; i < selectors.length; i++) {
     selectors[i].style.height = 90;
-    selectors[i].backgroundImage = url("SkillsButton_Default.png");
+    selectors[i].backgroundImage = SkillsButton_Default.png;
   }
 }
 
