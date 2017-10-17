@@ -30,7 +30,7 @@ function unHighlightSelectors()
 {
   var selectors document.getElementsByClassName('skillSelectors');
   for (var i = 0; i < selectors.length; i++) {
-    selectors[i].style.height = selectors[i].style.width;
+    selectors[i].style.height = 50%;
   }
 }
 
