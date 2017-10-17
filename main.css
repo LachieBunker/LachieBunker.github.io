@@ -67,6 +67,10 @@ h1{
   border-style: none;
 }
 
+.skillSelectorActive{
+
+}
+
 .skillPanels{
   border-color: #d800ff;
   border-width: medium;

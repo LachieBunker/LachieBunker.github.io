@@ -26,7 +26,7 @@ function selectorClicked(selectorNum)
   unHighlightSelectors();
   var selectorName = 'skillSelect' + selectorNum;
   var selector = document.getElementById(selectorName);
-  selector.'background-image' = url('SkillsButton_Highlighted.png');
+  selector.backgroundImage = url('SkillsButton_Highlighted.png');
   showPanel(selectorNum);
 }
 
@@ -35,7 +35,7 @@ function unHighlightSelectors()
   var selectors = document.getElementsByClassName('skillSelectors');
   for (var i = 0; i < selectors.length; i++) {
     selectors[i].style.height = 90;
-    selectors[i].'background-image' = url('SkillsButton_Default.png');
+    selectors[i].backgroundImage = url('SkillsButton_Default.png');
   }
 }
 
