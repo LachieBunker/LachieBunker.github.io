@@ -23,17 +23,16 @@ function changeHTML()
 
 function selectorClicked(selectorNum)
 {
-  unHighlightSelectors();
   showPanel(selectorNum);
 }
-
+/*
 function unHighlightSelectors()
 {
   var selectors document.getElementsByClassName('skillSelectors');
   for (var i = 0; i < selectors.length; i++) {
     selectors[i].style.height = 50%;
   }
-}
+}*/
 
 function showPanel(panelNum)
 {
