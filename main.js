@@ -37,7 +37,7 @@ function unHighlightSelectors()
   for (var i = 0; i < selectors.length; i++) {
     selectors[i].style.height = 70;
     selectors[i].style.backgroundImage = "url('SkillsButton_Default.png')";
-    selectors[i].style.color = #d800ff;
+    selectors[i].style.color = "#d800ff";
   }
 }
 
