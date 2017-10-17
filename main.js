@@ -23,7 +23,8 @@ function changeHTML()
 
 function selectorClicked(selectorNum)
 {
-
+  unHighlightSelectors();
+  showPanel(selectorNum);
 }
 
 function unHighlightSelectors()
