@@ -61,4 +61,11 @@ h1{
   border-width: medium;
   border-style: solid;
   border-radius: 10;
+  width: 30%;
+  height: 20%;
+}
+
+.skillHeader{
+  color:#d800ff;
+  font-size: 16;
 }
