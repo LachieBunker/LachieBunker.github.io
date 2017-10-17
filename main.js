@@ -55,9 +55,3 @@ function hidePanels()
     panels[i].style.display = "none";
   }
 }
-
-testButton.addEventListener('click', function() {
-  chrome.tabs.create({url:"http://www.qartwheelproductions.com/antidote/"})
-})
-
-colorButton.addEventListener('click', changeHTML);
