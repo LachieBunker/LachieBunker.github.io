@@ -57,5 +57,8 @@ h1{
 }
 
 .skillPanels{
-  
+  border-color: #d800ff;
+  border-width: medium;
+  border-style: solid;
+  border-radius: 10;
 }
