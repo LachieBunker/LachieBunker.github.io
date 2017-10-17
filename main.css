@@ -61,7 +61,10 @@ h1{
   height: 0;
   padding-bottom: 50%;
   background-image: url('SkillsButton_Default.png');
-  background-repeat: no-repeat
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+  border-style: none;
 }
 
 .skillPanels{
