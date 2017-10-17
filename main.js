@@ -26,7 +26,7 @@ function selectorClicked(selectorNum)
   unHighlightSelectors();
   var selectorName = 'skillSelect' + selectorNum;
   var selector = document.getElementById(selectorName);
-  selector.background-image = url('SkillsButton_Hughlighted.png');
+  selector.background-image = url('SkillsButton_Highlighted.png');
   showPanel(selectorNum);
 }
 
