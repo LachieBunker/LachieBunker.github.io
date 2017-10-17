@@ -27,6 +27,7 @@ function selectorClicked(selectorNum)
   var selectorName = 'skillSelect' + selectorNum;
   var selector = document.getElementById(selectorName);
   selector.style.backgroundImage = "url('SkillsButton_Highlighted.png')";
+  selector.style.color = white;
   showPanel(selectorNum);
 }
 
@@ -36,6 +37,7 @@ function unHighlightSelectors()
   for (var i = 0; i < selectors.length; i++) {
     selectors[i].style.height = 70;
     selectors[i].style.backgroundImage = "url('SkillsButton_Default.png')";
+    selectors[i].style.color = #d800ff;
   }
 }
 
