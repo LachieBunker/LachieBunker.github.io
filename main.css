@@ -56,6 +56,13 @@ h1{
   display: none;
 }
 
+.skillSelectors{
+  width: 50%;
+  height: 20%;
+  background-image: url('SkillsButton_Default.png');
+  background-repeat: no-repeat
+}
+
 .skillPanels{
   border-color: #d800ff;
   border-width: medium;
