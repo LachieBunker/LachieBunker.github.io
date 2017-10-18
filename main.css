@@ -63,8 +63,9 @@ h1{
   /*background-image: url('SkillsButton_Default.png');*/
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 0;
+  padding: 0px;
   border-style: none;
+  border-width: 0px;
 }
 
 .skillSelectorActive{
