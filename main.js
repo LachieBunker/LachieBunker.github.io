@@ -36,7 +36,7 @@ function unHighlightSelectors()
 {
   var selectors = document.getElementsByClassName('skillSelectors');
   for (var i = 0; i < selectors.length; i++) {
-    var selectorImgUrl = "url('SkillsButton" + i+1 + "_Default.png')";
+    var selectorImgUrl = "url('SkillsButton" + (i+1) + "_Default.png')";
     selectors[i].style.backgroundImage = selectorImgUrl;//"url('SkillsButton_Default.png')";
     selectors[i].style.color = "#d800ff";
   }
