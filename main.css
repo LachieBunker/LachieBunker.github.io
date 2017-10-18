@@ -57,7 +57,7 @@ h1{
 }
 
 .selectorsDiv{
-  width: 20%;
+  width: 50%;
   position: relative;
 }
 
@@ -67,7 +67,6 @@ h1{
 
 .skillSelectors{
   width: 48.5%;
-  /*height: 10%;*/
   position: relative;
   /*background-image: url('SkillsButton_Default.png');*/
   background-size: 100%;
