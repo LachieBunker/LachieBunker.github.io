@@ -67,7 +67,6 @@ h1{
 
 .skillSelectors{
   width: 48.5%;
-  position: relative;
   background-color: blue;
   /*background-image: url('SkillsButton_Default.png');*/
   background-size: 100%;
@@ -75,11 +74,6 @@ h1{
   padding: 0px;
   border-style: none;
   border-width: 0px;
-}
-
-.skillSelectors::before{
-  display: block;
-	padding-top: 100%;
 }
 
 .skillSelectorActive{
