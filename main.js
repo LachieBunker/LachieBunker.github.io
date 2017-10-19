@@ -39,6 +39,7 @@ function unHighlightSelectors()
     var selectorImgUrl = "url('SkillsButton" + (i+1) + "_Default.png')";
     selectors[i].style.backgroundImage = selectorImgUrl;//"url('SkillsButton_Default.png')";
     selectors[i].style.color = "#d800ff";
+    selectors[i].style.height = selectors[i].style.width;
   }
 }
 
