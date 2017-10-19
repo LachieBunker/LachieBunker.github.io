@@ -57,12 +57,7 @@ h1{
 }
 
 .selectorsDiv{
-  width: 50%;
-  position: relative;
-}
-
-.selectorsDiv::before{
-  padding_top: 100%;
+  min-width: 200px;
 }
 
 .skillSelectors{
@@ -77,6 +72,7 @@ h1{
   border-width: 0px;
   margin-left: 0;
   margin-right: 0;
+  min-width: 100px;
 }
 
 .skillSelectorActive{
