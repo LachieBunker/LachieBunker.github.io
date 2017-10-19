@@ -76,10 +76,6 @@ h1{
   border-width: 0px;
 }
 
-.skillSelectors::before{
-  padding-top: 100%;
-}
-
 .skillSelectorActive{
 
 }
