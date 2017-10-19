@@ -28,6 +28,7 @@ h1{
   width: 80%;
   border-width:medium;
   border-style: solid;
+  min-width: 200px;
 }
 
 .border{
