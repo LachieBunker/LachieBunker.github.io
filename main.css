@@ -66,8 +66,8 @@ h1{
 }
 
 .skillSelectors{
-  width: 48.5%;
-  height: 8vw;
+  width: 6vw;
+  height: 6vw;
   background-color: blue;
   /*background-image: url('SkillsButton_Default.png');*/
   background-size: 100%;
