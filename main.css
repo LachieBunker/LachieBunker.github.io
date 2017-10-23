@@ -119,9 +119,10 @@ h1{
   opacity: 0.0;
   width: 100%;
   height: 100%;
-  text-align: center;
+  display: table-cell;
   vertical-align: text-bottom;
-  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .g-button-text:hover{
