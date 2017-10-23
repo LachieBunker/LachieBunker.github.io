@@ -119,7 +119,7 @@ h1{
   opacity: 0.0;
   width: 100%;
   height: 100%;
-  display: table;
+  display: table-cell;
   vertical-align: middle;
   background-color: green;
 }
