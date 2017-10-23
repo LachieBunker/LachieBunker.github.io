@@ -105,10 +105,11 @@ h1{
 
 .g-button{
   opacity: 1.0;
-  width: 20%;
-  height: 10%;
-  min-width: 120px;
-  min-height: 40px;
+  display: inline-block;
+  width: 30%;
+  height: 20%;
+  min-width: 300px;
+  min-height: 200px;
 }
 
 .g-button:hover{
