@@ -104,10 +104,19 @@ h1{
 }
 
 .g-button{
-  color: blue;
+  opacity: 1.0;
+  background-color: : blue;
 }
 
 .g-button:hover{
   opacity: 0.5;
-  color: red;
+  background-color: : red;
+}
+
+.g-button-text{
+  opacity: 0.0;
+}
+
+.g-button-text:hover{
+  opacity: 1.0;
 }
