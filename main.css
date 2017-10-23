@@ -121,6 +121,7 @@ h1{
   height: 100%;
   display: table;
   text-align: center;
+  padding-top: 80%;
   background-color: green;
 }
 
