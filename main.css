@@ -121,6 +121,7 @@ h1{
   height: 100%;
   display: table-cell;
   vertical-align: middle;
+  horizontal-align: middle;
 }
 
 .g-button-text:hover{
