@@ -115,7 +115,7 @@ h1{
   margin: 2.5%;
   background-image: url("SkillsButton_Default.png");
   background-position: center;
-  background-size: auto;
+  background-size:contain;
 }
 
 .g-button:hover{
