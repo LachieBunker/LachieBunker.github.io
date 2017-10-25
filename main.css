@@ -120,7 +120,7 @@ h1{
 }
 
 .g-button:hover{
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 .g-button-text{
@@ -135,5 +135,5 @@ h1{
 }
 
 .g-button-text:hover{
-  opacity: 2.0;
+  opacity: 4.0;
 }
