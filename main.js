@@ -26,7 +26,7 @@ function selectorClicked(selectorNum)
   unHighlightSelectors();
   var selectorName = 'skillSelect' + selectorNum;
   var selector = document.getElementById(selectorName);
-  var selectorImgUrl = "url('SkillsButton" + selectorNum + "_Highlighted.png')";
+  var selectorImgUrl = "url('/ArtAssets/SkillsButton" + selectorNum + "_Highlighted.png')";
   selector.style.backgroundImage = selectorImgUrl;//"url('SkillsButton_Highlighted.png')";
   selector.style.color = "white";
   showPanel(selectorNum);
@@ -36,7 +36,7 @@ function unHighlightSelectors()
 {
   var selectors = document.getElementsByClassName('skillSelectors');
   for (var i = 0; i < selectors.length; i++) {
-    var selectorImgUrl = "url('SkillsButton" + (i+1) + "_Default.png')";
+    var selectorImgUrl = "url('/ArtAssets/SkillsButton" + (i+1) + "_Default.png')";
     selectors[i].style.backgroundImage = selectorImgUrl;//"url('SkillsButton_Default.png')";
     selectors[i].style.color = "#d800ff";
     selectors[i].style.height = selectors[i].style.width;
