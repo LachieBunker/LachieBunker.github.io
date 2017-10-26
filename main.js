@@ -63,7 +63,7 @@ function hidePanels()
 function slideshowButtonClicked(slideshowImage)
 {
   var sPanel = document.getElementById('slideshow-panel');
-  var slideshowImageUrl = "url('/ArtAssets/'" + slideshowImage + "'.png')";
+  var slideshowImageUrl = "url('/ArtAssets/" + slideshowImage + ".png')";
   sPanel.style.backgroundImage = slideshowImageUrl;
-  sPanel.style.innerHTML = slideshowImageUrl;
+
 }
