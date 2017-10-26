@@ -139,6 +139,10 @@ h1{
 }
 
 .slideshow-button{
+  width: 6vw;
+  height:4vw;
+  min-width: 60px;
+  min-height: 40px;
   background-image: url("/ArtAssets/SkillsButton_Default.png");
   background-position: center;
   background-size:cover;
