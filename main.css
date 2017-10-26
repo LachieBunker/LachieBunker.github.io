@@ -143,6 +143,7 @@ h1{
   height:4vw;
   min-width: 60px;
   min-height: 40px;
+  display: inline-block;
   background-image: url("/ArtAssets/SkillsButton_Default.png");
   background-position: center;
   background-size:cover;
