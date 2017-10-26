@@ -139,6 +139,7 @@ h1{
 }
 
 #slideshow-panel{
+  background-color: blue;
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
