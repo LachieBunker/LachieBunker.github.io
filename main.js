@@ -59,3 +59,9 @@ function hidePanels()
     panels[i].style.display = "none";
   }
 }
+
+function slideshowButtonClicked(slideshowImageUrl)
+{
+  var sPanel = document.getElementById('slideshow-panel');
+  sPanel.style.backgroundImage = slideshowImageUrl;
+}
