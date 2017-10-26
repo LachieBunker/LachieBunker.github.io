@@ -139,7 +139,9 @@ h1{
 }
 
 #slideshow-panel{
-
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .slideshow-button{
