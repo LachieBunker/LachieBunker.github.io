@@ -137,3 +137,10 @@ h1{
 .g-button-text:hover{
   opacity: 4.0;
 }
+
+.slideshow-button{
+  background-image: url("/ArtAssets/SkillsButton_Default.png");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
