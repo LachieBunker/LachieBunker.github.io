@@ -147,7 +147,7 @@ h1{
   max-height: 600px;
   background-image: url('/ArtAssets/AntidoteSplashArt.png');
   background-position: center;
-  background-size:cover;
+  background-size:contain;
   background-repeat: no-repeat;
 }
 
