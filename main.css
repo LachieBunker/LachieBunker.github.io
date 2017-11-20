@@ -139,10 +139,10 @@ h1{
 }
 
 #slideshow-panel{
-  width: 50vw;
+  width: 40vw;
   height: 25vw;
   min-width: 400px;
-  min-height: 00px;
+  min-height: 200px;
   max-width: 800px;
   max-height: 400px;
   background-image: url('/ArtAssets/AntidoteSplashArt.png');
