@@ -149,6 +149,7 @@ h1{
 }
 
 #slideshow-panel{
+    width: 80%;
     background-image: url('/ArtAssets/AntidoteSplashArt.png');
     background-position: center;
     background-size:contain;
