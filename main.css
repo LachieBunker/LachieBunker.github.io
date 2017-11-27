@@ -138,17 +138,21 @@ h1{
   opacity: 4.0;
 }
 
-#slideshow-panel{
+#slideshow-panel-bounds{
   width: 40vw;
   height: 25vw;
   min-width: 400px;
   min-height: 200px;
   max-width: 800px;
   max-height: 400px;
-  background-image: url('/ArtAssets/AntidoteSplashArt.png');
-  background-position: center;
-  background-size:contain;
-  background-repeat: no-repeat;
+
+}
+
+#slideshow-panel{
+    background-image: url('/ArtAssets/AntidoteSplashArt.png');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
 .slideshow-button{
