@@ -75,16 +75,15 @@ h1{
   padding: 0px;
   border-style: none;
   border-width: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  min-width: 40px;
-  min-height: 40px;
+  /*margin-left: 0px;
+  margin-right: 0px;*/
+  min-width: 50px;
+  min-height: 50px;
   background-color: white;
   color: #d800ff;
   font-size: 80%;
-  //display: inline-block;
-  padding:0px;
-  margin: 0px;
+ /*//display: inline-block;*/
+  margin: auto;
 }
 
 .skillSelectorActive{
