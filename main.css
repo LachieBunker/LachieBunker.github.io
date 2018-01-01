@@ -84,6 +84,7 @@ h1{
   font-size: 80%;
  /*//display: inline-block;*/
   margin: auto;
+  text-align:center;
 }
 
 .skillSelectorActive{
