@@ -70,7 +70,7 @@ h1{
   height: 5vw;
   background-color: blue;
   /*background-image: url('SkillsButton_Default.png');*/
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 0px;
   border-style: none;
@@ -82,9 +82,9 @@ h1{
   background-color: white;
   color: #d800ff;
   font-size: 80%;
- /*//display: inline-block;*/
-  margin: auto;
-  text-align:center;
+  display: inline-block;
+  text-align: center;
+  margin:auto;
 }
 
 .skillSelectorActive{
