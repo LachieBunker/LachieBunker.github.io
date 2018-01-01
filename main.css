@@ -68,7 +68,7 @@ h1{
 .skillSelectors{
   width: 5vw;
   height: 5vw;
-  background-color: blue;
+  background-color: red;
   /*background-image: url('SkillsButton_Default.png');*/
   background-size: cover;
   background-repeat: no-repeat;
