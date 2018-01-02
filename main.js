@@ -73,3 +73,20 @@ function changeColorByID(id)
     var item = document.getElementById(id);
     item.style.backgroundColor = "red";
 }
+
+function reqListener () {
+  console.log(this.responseText);
+}
+
+function loadDocument()
+{
+
+
+    var oReq = new XMLHttpRequest();
+    oReq.addEventListener("load", reqListener);
+    oReq.open("GET", "http://www.example.org/example.txt");
+    oReq.send();
+
+    var item = document.getElementById(id);
+    item.innerHTML = oReq;
+}
