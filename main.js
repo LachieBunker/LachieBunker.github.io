@@ -82,7 +82,7 @@ function loadDocument()
 {
     var oReq = new XMLHttpRequest();
     oReq.addEventListener("load", reqListener);
-    oReq.open("GET", "http://www.example.org/example.txt");
+    oReq.open("GET", "/test.txt");
     oReq.send();
 
     var item = document.getElementById("temp");
