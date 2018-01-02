@@ -68,8 +68,8 @@ function slideshowButtonClicked(slideshowImage)
 
 }
 
-function changeColorByID(id, color)
+function changeColorByID(id)
 {
-    var object = document.getElementById(id);
-    object.style.backgroundColor = color;
+    var item = document.getElementById(id);
+    item.style.backgroundColor = "red";
 }
