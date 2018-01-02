@@ -86,5 +86,5 @@ function loadDocument()
     oReq.send();
 
     var item = document.getElementById("temp");
-    item.innerHTML = oReq;
+    item.innerHTML = oReq.responseText;
 }
