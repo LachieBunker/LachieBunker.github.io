@@ -67,3 +67,9 @@ function slideshowButtonClicked(slideshowImage)
   sPanel.src = slideshowImageUrl;
 
 }
+
+function changeColorByID(id, color)
+{
+    var object = document.getElementById(id);
+    object.style.backgroundColor = color;
+}
