@@ -78,7 +78,7 @@ function reqListener () {
   console.log(this.responseText);
 }
 
-function loadDocument()
+/*function loadDocument()
 {
     var oReq = new XMLHttpRequest();
     oReq.addEventListener("load", reqListener);
@@ -87,4 +87,4 @@ function loadDocument()
 
     var item = document.getElementById("temp");
     item.innerHTML = oReq.responseText + " ResponseText: " oReq.response;
-}
+}*/
