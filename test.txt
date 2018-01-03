@@ -1,3 +1,3 @@
-Alex|Smith
-John|Jones
-Greg|Adams
+Antidote|May-July 2016|https://lachiebunker.github.io/ArtAssets/AntidoteSplashArt.png |https://lachiebunker.github.io/antidote.html
+Upgrade!|May-July 2016|https://lachiebunker.github.io/ArtAssets/UpgradeSplashArt.png |https://lachiebunker.github.io/upgrade.html
+Gun Runners|October-November 2016|https://lachiebunker.github.io/ArtAssets/GunRunnersSplashArt.png |https://lachiebunker.github.io/gunrunners.html
