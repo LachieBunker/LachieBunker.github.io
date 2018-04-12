@@ -1,11 +1,18 @@
+.header-container{
+    margin:auto;
+    text-align: center;
+}
+
 .header-tab{
     style:inline-block;
     margin:auto;
+    width: 30%;
 }
 
 .body-content{
     width:80%;
     margin:auto;
+    text-align:center;
 }
 
 .banner{
