@@ -1,0 +1,13 @@
+.header-tab{
+    style:inline-block;
+    margin:auto;
+}
+
+.body-content{
+    width:80%;
+    margin:auto;
+}
+
+.banner{
+    background-color: blue;
+}
